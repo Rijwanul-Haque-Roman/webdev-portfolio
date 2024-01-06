@@ -9,6 +9,10 @@ body {
   color: #fd6e0a;
 }
 
+button svg {
+  width: 18px;
+  height: 18px;
+}
 .btn-primary {
   border-radius: 5px;
   background: #fd6e0a;
@@ -166,7 +170,7 @@ main {
   flex-shrink: 0;
   border-radius: 5px;
   background: #fff;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6);
   padding: 30px;
 }
 
