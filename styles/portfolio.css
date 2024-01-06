@@ -30,7 +30,7 @@ body {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
-  margin-top: 30px; /* 166.667% */
+  margin-top: 30px;
 }
 /* nav related styles */
 nav {
@@ -139,7 +139,7 @@ main {
   color: #757575;
   text-align: center;
   font-size: 20px;
-  line-height: 30px; /* 150% */
+  line-height: 30px;
 }
 .info-description {
   color: #474747;
@@ -147,7 +147,7 @@ main {
   font-weight: 700;
   line-height: 30px;
 }
-/* Work experience section */
+/* Work experience section styles*/
 .work {
   padding: 0 0px 130px;
 }
@@ -182,5 +182,53 @@ main {
   color: #757575;
   font-size: 16px;
   font-weight: 400;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
+}
+/* summary section styles */
+.summary {
+  /* max-width: 85%; */
+  margin: 0 auto;
+}
+.summary .section-title {
+  margin-bottom: 100px;
+}
+.summary-container {
+  display: flex;
+  justify-content: space-around;
+}
+.cv h4 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.cv-items {
+  width: 90%;
+}
+.cv-items-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.cv-items-sub {
+  color: #757575;
+  font-family: Open Sans;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.cv-item-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+hr {
+  margin: 30px 0;
+  background: #d1d1d1;
+}
+
+.download {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0 110px 0;
 }
