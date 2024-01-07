@@ -157,7 +157,7 @@ main {
 /* Work experience section styles*/
 .work {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   padding: 0 0px 130px;
 }
 .work .section-description {
@@ -213,7 +213,7 @@ main {
 /* summary section styles */
 .summary {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   margin: 0 auto;
 }
 .summary .section-title {
@@ -257,7 +257,7 @@ hr {
 .download {
   display: flex;
   justify-content: space-around;
-  margin: 50px 0 110px 0;
+  margin: 50px 0 130px 0;
 }
 /* footer section styles */
 .footer {
