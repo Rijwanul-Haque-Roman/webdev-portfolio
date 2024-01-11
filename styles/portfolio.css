@@ -335,7 +335,7 @@ label > button {
 /* responsive styles */
 
 /* mobile devices */
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 576px) {
   html {
     margin: 0 auto;
   }
