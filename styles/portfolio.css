@@ -331,15 +331,11 @@ hr {
 label > button {
   margin-top: 26px;
 }
-/* temporary */
-.hide {
-  display: none;
-}
 
 /* responsive styles */
 
 /* mobile devices */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1080px) {
   html {
     margin: 0 auto;
   }
