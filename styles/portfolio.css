@@ -82,7 +82,7 @@ nav a {
 
 .banner-content {
   max-width: 600px;
-  padding-bottom: 100px;
+  margin-bottom: 150px;
 }
 .banner-greeting {
   color: #474747;
@@ -291,6 +291,7 @@ hr {
 }
 .form {
   padding-top: 160px;
+  padding-bottom: 80px;
 }
 .form-item {
   display: block;
@@ -329,4 +330,107 @@ hr {
 
 label > button {
   margin-top: 26px;
+}
+/* temporary */
+.hide {
+  display: none;
+}
+
+/* responsive styles */
+
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  html {
+    margin: 0 auto;
+  }
+  nav,
+  .banner,
+  .about-info-container,
+  .technologies,
+  .summary-container,
+  .footer {
+    flex-direction: column;
+  }
+  .header {
+    background-position: bottom right, left;
+  }
+  nav {
+    align-items: center;
+    padding: 0;
+  }
+  nav > ul .btn-primary {
+    font-size: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 110px;
+  }
+  nav > ul {
+    width: 90%;
+    justify-content: center;
+  }
+  nav li {
+    margin: 0 auto;
+  }
+  .nav-title {
+    padding-bottom: 30px;
+  }
+  .banner-title {
+    font-size: 35px;
+  }
+  .banner-content {
+    text-align: center;
+    width: 90%;
+    padding-bottom: 0;
+    margin: 0 auto;
+  }
+  .banner .btn-primary {
+    margin: 10px;
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+  .banner .pfp {
+    width: 90%;
+    height: auto;
+    z-index: 1;
+  }
+  .about {
+    padding: 0;
+  }
+  .about > p {
+    padding: 10px;
+    text-align: justify;
+  }
+  .work .section-description {
+    padding: 0 5px;
+  }
+  .footer {
+    gap: 0;
+  }
+  .social {
+    width: auto;
+    padding: 30px;
+    margin: 5px;
+  }
+  .form {
+    padding: 0px;
+    padding-bottom: 50px;
+  }
+  .footer h4 {
+    text-align: center;
+  }
+  form {
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .form-item,
+  .msg {
+    margin: 0 auto;
+    width: 80vw;
+  }
+  .social-icons {
+    text-align: center;
+  }
 }
